@@ -25,15 +25,18 @@
                   <div class="col-md-6">
                       <div class="about_right">
                           <div class="about_right_inner">
-                              <div class="heading">Best Business Setup Company in <span>UAE</span></div>
+                              <h1 class="heading">Best Business Setup Company in <span>UAE</span></h1>
 
                               <p>
-                                  We are a young and dynamic organization driven by innovation, passion and a commitment to excellence.
+                                  Webizz is a reputable and competent business setup company in UAE that assists entrepreneurs, startups, and international investors in establishing and growing their enterprises with confidence. With hands-on experience in UAE mainland, free zone, and offshore company creation, Webizz provides end-to-end solutions that are suited to each client's specific needs.
                                   <br> <br>
-                                  With a fresh perspective and a forward thinking approach, we thrive on challenges and embrace change as an opportunity
-                                  for growth.<br><br>
-                                  With a focus on flexibility, reliability, and professionalism, WEBIZZ delivers tailored services that simplify business
-                                  setup and enhance operational efficiency.
+                                  We ensure a simple and transparent setup process by leveraging its extensive understanding of UAE commercial regulations, licensing procedures, and regulatory compliance. The team consists of experienced business consultants who stay up to date on the latest government rules, immigration policies, and economic frameworks, allowing customers to make educated decisions at every stage.
+                                  <br><br>
+                                  We provide comprehensive services such as trade license issuing, company registration, visa processing, PRO services, bank account help, and continuous compliance support. Every service is supplied with precision, speed, and regulatory compliance, reducing risks and delays for business owners.
+                                  <br><br>
+                                  What distinguishes Webizz is its client-centric approach and commitment to transparency. From the initial consultation to post-setup support, clients receive clear direction, honest pricing, and committed assistance. This trust-based strategy has helped Webizz establish long-term connections with entrepreneurs from a variety of industries.
+                                  <br><br>
+                                  Webizz has established itself as a trustworthy partner for business formation in the United Arab Emirates by emphasizing compliance, confidentiality, and ethical business practices. Webizz offers the knowledge and assistance required to create a profitable company in one of the most dynamic sectors on earth, whether you are starting a startup or growing internationally.
                               </p>
                           </div>
                       </div>
