@@ -20,14 +20,21 @@
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-10">
-                    <div class="heading">Offshore</div>
+                    <h1 class="heading">Offshore Company Formation in <span>UAE</span></h1>
                     <p>
-                        Setting up an <b>offshore company in Dubai</b> is a popular option for
-                        international businesses and investors seeking tax optimization, asset
-                        protection, and ease of international operations. In the UAE, offshore
-                        companies are not physically present but are legally registered to do
-                        business outside the country. Dubai offers offshore company formation
-                        primarily through the <b>Jebel Ali Free Zone Authority (JAFZA).</b>
+                        Webizz is a reputable consultant that specializes in offshore company formation in the UAE. We assist worldwide entrepreneurs, investors, and companies in creating secure and tax-efficient structures in one of the world's most strategic business locations. Webizz, which focuses on transparency, compliance, and efficiency, makes it easier to establish offshore entities in jurisdictions such as Jebel Ali Free Zone (JAFZA), Ras Al Khaimah International Corporate Centre (RAK ICC), and Ajman Offshore.
+                    </p>
+                    <p>
+                        Offshore firms in the UAE are perfect for enterprises that want asset protection, international trade flexibility, and tax optimization. They allow for 100% foreign ownership, full profit repatriation, and corporate and personal income tax exemptions. Webizz offers specialized counsel to help clients choose the best jurisdiction for their sector, financial ambitions, and operational needs.
+                    </p>
+                    <p>
+                        Our services include the whole offshore formation process, from creating incorporation documents and registering trade names to opening overseas bank accounts and guaranteeing compliance with UAE rules. Along with offshore incorporation, Webizz provides comprehensive business startup services, enabling entrepreneurs to confidently launch and expand their companies.
+                    </p>
+                    <p>
+                        Compliance and confidentiality are critical to our operations. Webizz adheres completely to UAE government and offshore authority requirements, guaranteeing that each stage of the procedure is legally sound. Our commitment to client security, transparency, and ethical procedures fosters long-term confidence with our partners.
+                    </p>
+                    <p>
+                        Entrepreneurs who use Webizz receive distinct benefits such as worldwide market access, asset protection techniques, and simpler organizational structures. Whether you are an investor looking for international expansion, a business owner looking to preserve assets, or a corporation looking to maximize tax efficiency, Webizz has the expertise, authority, and integrity you need to successfully establish and build an offshore presence in the UAE.
                     </p>
                 </div>
             </div>
