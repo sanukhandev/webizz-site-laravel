@@ -1,0 +1,184 @@
+  @include('layouts.header')
+    <main class="freezone_setup_main maid_visa_main">
+      <section>
+        <div class="banner_mainBox">
+          <div class="banner_image">
+            <img
+              src="{{ENV('APP_URL')}}assets/images/banners/maid-visa.webp"
+              alt="Business Center"
+              class="img-fluid"
+            />
+          </div>
+          <div class="banner_text">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="banner_heading">PRO Services</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="first_section" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-10">
+              <div class="heading">Maid <span>Visa</span></div>
+              <p>Maid Visa (also called Domestic Worker Visa) in the UAE!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="VisaCategory" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="VisaCategory_inner">
+                <table class="table table-responsive">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="col19">Category</th>
+                      <th scope="col">Details</th>
+                    </tr>
+                  </thead>
+                  <tbody class="align-middle">
+                    <tr>
+                      <th scope="row">Who can sponsor?</th>
+                      <td>
+                        UAE residents (employers) — citizens and expats (with
+                        conditions)
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Who can be hired?</th>
+                      <td>
+                        Housemaids, nannies, cleaners, cooks, drivers,
+                        gardeners, private nurses
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Visa Duration</th>
+                      <td>1 year for expact sponsors and 2 years for Emirati 0r GCC sponsors</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Salary</th>
+                      <td>
+                        Depends on nationality, experience, and agreement (but
+                        must meet UAE minimum wage rules)
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Minimum Sponsor Salary</th>
+                      <td>
+                        Typically AED 25,000–30,000/month (varies by emirate)
+                        for expats
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Recruitment Options</th>
+                      <td>
+                        - Direct hiring (if you find a maid already in UAE)<br />
+                        - Hiring through licensed maid agencies<br />
+                        - Tadbeer centres (official UAE domestic worker
+                        agencies)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="premiumServices_section virtual-office-section maid_visa_section">
+        <div class="container">
+          <div class="premiumServices_text" data-aos="fade-up" data-aos-duration="1000">
+            <div class="heading">Main Requirements for <span>Sponsoring a Maid</span></div>
+            <p></p>
+            <div class="custom_listing">
+              <ul class="p-0">
+                <li> Proof of high enough salary (pay slips, labor contract) </li>
+                <li> Valid tenancy contract (Ejari if in Dubai) — must show you live in a proper residence </li>
+                <li>Family status (single men often cannot sponsor a maid)</li>
+                <li>Sometimes, number of dependents (like having young children or elderly family members) is checked</li>
+                <li>Emirates ID and valid residency visa of sponsor</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="get_in_touch_strip" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="get_in_touch_strip_inner">
+                  <h3 class="">
+                    Need assistance? Send your enquiry now!
+                  </h3>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="call_to_action" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Send Enquiry
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade callto_action_form" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+               <div class="heading">Get In <span>Touch</span></div>
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="calltoaction">
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                  <ul>
+                      @foreach ($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                      @endforeach
+                  </ul>
+                </div>
+                @endif
+
+                <form action="{{ route('contact.send') }}" method="POST">
+                    @csrf
+                    <div class="get_in_touch_inner">
+                        <div class="form_box">
+                            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="form_box">
+                            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+                        </div>
+                        <div class="form_box">
+                            <input type="email" name="email" class="form-control" placeholder="Email Id" required>
+                        </div>
+                        <div class="form_box">
+                            <input type="text" name="mobile" class="form-control" placeholder="Mobile No." required>
+                        </div>
+                        <div class="form_box1">
+                            <textarea name="messages" class="form-control" placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit_btn">
+                            Submit <span>Enquiry</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     @include('layouts.footer')
+
+    
