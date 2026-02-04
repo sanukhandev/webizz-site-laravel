@@ -41,7 +41,7 @@ Route::get('/about-us', function () {
     return view('pages.about-us', ['data_arr' => $data_arr]);
 });
 Route::get('/accounting-and-bookkeping', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Accounting and Bookkeeping";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -49,7 +49,7 @@ Route::get('/accounting-and-bookkeping', function () {
     return view('pages.accounting-andbookkeping', ['data_arr' => $data_arr]);
 });
 Route::get('/audit-reports', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Audit Reports";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -57,7 +57,7 @@ Route::get('/audit-reports', function () {
     return view('pages.audit-reports',  ['data_arr' => $data_arr]);
 });
 Route::get('/contact', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Contact Us";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -65,7 +65,7 @@ Route::get('/contact', function () {
     return view('pages.contact', ['data_arr' => $data_arr]);
 });
 Route::get('/corporate-tax-registration', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Corporate Tax Registration";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -73,7 +73,7 @@ Route::get('/corporate-tax-registration', function () {
     return view('pages.corporate-tax-registration', ['data_arr' => $data_arr]);
 });
 Route::get('/coworking-space', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Coworking Space";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -86,10 +86,10 @@ Route::get('/dependent-visa', function () {
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
     $data_arr['canonical'] = "";
-    return view('pages.dependent-visa',['data_arr' => $data_arr] );
+    return view('pages.dependent-visa', ['data_arr' => $data_arr]);
 });
 Route::get('/employee-visa', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Employee Visa";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -97,7 +97,7 @@ Route::get('/employee-visa', function () {
     return view('pages.employee-visa', ['data_arr' => $data_arr]);
 });
 Route::get('/executive-office-space', function () {
-      $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Executive Office Space";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -105,7 +105,7 @@ Route::get('/executive-office-space', function () {
     return view('pages.executive-office-space',  ['data_arr' => $data_arr]);
 });
 Route::get('/freelance-visa', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Freelance Visa";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -113,7 +113,7 @@ Route::get('/freelance-visa', function () {
     return view('pages.freelance-visa', ['data_arr' => $data_arr]);
 });
 Route::get('/freezone-setup', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Freezone Setup";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -121,7 +121,7 @@ Route::get('/freezone-setup', function () {
     return view('pages.freezone-setup', ['data_arr' => $data_arr]);
 });
 Route::get('/golden-visa', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Golden Visa";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -134,7 +134,7 @@ Route::get('/investment-and-asset-management', function () {
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
     $data_arr['canonical'] = "";
-    return view('pages.investment-and-asset-management',['data_arr' => $data_arr]);
+    return view('pages.investment-and-asset-management', ['data_arr' => $data_arr]);
 });
 Route::get('/maid-visa', function () {
     $data_arr = array();
@@ -145,7 +145,7 @@ Route::get('/maid-visa', function () {
     return view('pages.maid-visa', ['data_arr' => $data_arr]);
 });
 Route::get('/meeting-room', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Meeting Room";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -161,15 +161,15 @@ Route::get('/virtual-office', function () {
     return view('pages.virtual-office', ['data_arr' => $data_arr]);
 });
 Route::get('/networking-and-meetup', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Networking and Meetup";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
     $data_arr['canonical'] = "";
-    return view('pages.networking-and-meetup',['data_arr' => $data_arr]);
+    return view('pages.networking-and-meetup', ['data_arr' => $data_arr]);
 });
 Route::get('/partner-visa', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Partner Visa Services in UAE and Partner Visa in UAE Webizz";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -177,7 +177,7 @@ Route::get('/partner-visa', function () {
     return view('pages.partner-visa', ['data_arr' => $data_arr]);
 });
 Route::get('/silver-visa', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Silver Visa";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -185,15 +185,15 @@ Route::get('/silver-visa', function () {
     return view('pages.silver-visa', ['data_arr' => $data_arr]);
 });
 Route::get('/premium-office', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Smart Work Space";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
     $data_arr['canonical'] = "";
-    return view('pages.smart-work-space',['data_arr' => $data_arr]);
+    return view('pages.smart-work-space', ['data_arr' => $data_arr]);
 });
 Route::get('/tax-residency-certificate', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Tax Residency Certificate";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -201,7 +201,7 @@ Route::get('/tax-residency-certificate', function () {
     return view('pages.tax-residency-certificate', ['data_arr' => $data_arr]);
 });
 Route::get('/trademark-services', function () {
-     $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Trademark Services";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -222,10 +222,10 @@ Route::get('/aml-esr-compliance-registration', function () {
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
     $data_arr['canonical'] = "";
-    return view('pages.aml-esr-compliance-registration', ['data_arr' => $data_arr] );
+    return view('pages.aml-esr-compliance-registration', ['data_arr' => $data_arr]);
 });
 Route::get('/audit-reports', function () {
-        $data_arr = array();
+    $data_arr = array();
     $data_arr['title'] = "Audit Reports";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
@@ -280,4 +280,3 @@ Route::get('emails/contact', [ContactController::class, 'send'])->name('contact.
 Route::get('/thank-you', function () {
     return view('pages.thank-you'); // make sure you have a "thankyou.blade.php" view
 })->name('thank-you');
-
