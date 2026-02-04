@@ -21,12 +21,18 @@
           <div class="container">
               <div class="row justify-content-center text-center">
                   <div class="col-md-10">
-                      <div class="heading">Mainland</div>
+                      <h1 class="heading">Best Mainland Business Setup in <span>UAE</span></h1>
                       <p>
-                          Dubai Mainland companies enjoy extensive flexibility with minimal restrictions. They can
-                          conduct business within and outside the UAE. Specific business activities do not even need
-                          local sponsors. You get access to government contracts and a favorable environment.
-                          <strong>With over 2000+ activities and 100% ownership, seize the chance!</strong>
+                          Webizz is a recognized and professional business consultancy that focuses on mainland business setup services in the UAE. Webizz, which has comprehensive understanding of UAE commercial rules and mainland licensing requirements, helps entrepreneurs and businesses form legally compliant firms that can operate freely in the UAE market. The workforce has direct expertise managing clearances from important agencies, ensuring a smooth and transparent setup process.
+                      </p>
+                      <p>
+                          Webizz provides comprehensive assistance with mainland company formation, including business activity selection, trade name registration, preliminary approvals, trade license issuance, and legal documentation. Every stage is executed with precision and regulatory compliance, displaying Webizz's professional abilities and comprehensive understanding of UAE mainland business requirements.
+                      </p>
+                      <p>
+                          Webizz's services are founded on the ideas of authority and trust. The firm offers reliable PRO and visa services, including investor and employee visas, Emirates ID processing, and government clearance. Ongoing assistance for license renewals, revisions, and compliance updates ensures that enterprises remain in compliance with changing legislation.
+                      </p>
+                      <p>
+                          We offer mainland firms access to professional office spaces, virtual offices, and meeting rooms, allowing them to establish a credible and operational presence in the UAE. Webizz has earned the trust of businesses seeking secure, compliant, and efficient mainland company setup.
                       </p>
                   </div>
               </div>
@@ -195,71 +201,71 @@
           </div>
       </div>
       <div class="get_in_touch_strip" data-aos="fade-up" data-aos-duration="1000">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="get_in_touch_strip_inner">
-                  <h3 class="">
-                    Need assistance? Send your enquiry now!
-                  </h3>
-                  <!-- Button trigger modal -->
-                  <button type="button" class="call_to_action" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    Send Enquiry
-                  </button>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="get_in_touch_strip_inner">
+                          <h3 class="">
+                              Need assistance? Send your enquiry now!
+                          </h3>
+                          <!-- Button trigger modal -->
+                          <button type="button" class="call_to_action" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                              Send Enquiry
+                          </button>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>        
       </div>
   </main>
-      <!-- Modal -->
-    <div class="modal fade callto_action_form" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <!-- Modal -->
+  <div class="modal fade callto_action_form" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">
-               <div class="heading">Get In <span>Touch</span></div>
-            </h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="calltoaction">
-                @if ($errors->any())
-                <div class="alert alert-danger">
-                  <ul>
-                      @foreach ($errors->all() as $error)
-                      <li>{{ $error }}</li>
-                      @endforeach
-                  </ul>
-                </div>
-                @endif
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      <div class="heading">Get In <span>Touch</span></div>
+                  </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="calltoaction">
+                      @if ($errors->any())
+                      <div class="alert alert-danger">
+                          <ul>
+                              @foreach ($errors->all() as $error)
+                              <li>{{ $error }}</li>
+                              @endforeach
+                          </ul>
+                      </div>
+                      @endif
 
-                <form action="{{ route('contact.send') }}" method="POST">
-                    @csrf
-                    <div class="get_in_touch_inner">
-                        <div class="form_box">
-                            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
-                        </div>
-                        <div class="form_box">
-                            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
-                        </div>
-                        <div class="form_box">
-                            <input type="email" name="email" class="form-control" placeholder="Email Id" required>
-                        </div>
-                        <div class="form_box">
-                            <input type="text" name="mobile" class="form-control" placeholder="Mobile No." required>
-                        </div>
-                        <div class="form_box1">
-                            <textarea name="messages" class="form-control" placeholder="Your Message" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="submit_btn">
-                            Submit <span>Enquiry</span>
-                        </button>
-                    </div>
-                </form>
-            </div>
+                      <form action="{{ route('contact.send') }}" method="POST">
+                          @csrf
+                          <div class="get_in_touch_inner">
+                              <div class="form_box">
+                                  <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+                              </div>
+                              <div class="form_box">
+                                  <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+                              </div>
+                              <div class="form_box">
+                                  <input type="email" name="email" class="form-control" placeholder="Email Id" required>
+                              </div>
+                              <div class="form_box">
+                                  <input type="text" name="mobile" class="form-control" placeholder="Mobile No." required>
+                              </div>
+                              <div class="form_box1">
+                                  <textarea name="messages" class="form-control" placeholder="Your Message" rows="4" required></textarea>
+                              </div>
+                              <button type="submit" class="submit_btn">
+                                  Submit <span>Enquiry</span>
+                              </button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
+  </div>
   @include('layouts.footer')
