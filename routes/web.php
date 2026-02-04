@@ -170,7 +170,7 @@ Route::get('/networking-and-meetup', function () {
 });
 Route::get('/partner-visa', function () {
      $data_arr = array();
-    $data_arr['title'] = "Partner Visa";
+    $data_arr['title'] = "Partner Visa Services in UAE and Partner Visa in UAE Webizz";
     $data_arr['keywords'] = "";
     $data_arr['description'] = "";
     $data_arr['canonical'] = "";
