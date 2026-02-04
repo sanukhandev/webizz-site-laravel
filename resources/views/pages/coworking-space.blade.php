@@ -20,8 +20,11 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-md-10">
-              <div class="heading">Co-working <span>Space</span></div>
-              <p>Discover a flexible, inspiring workspace designed for modern professionals. At WEBIZZ, our coworking spaces bring together freelancers, entrepreneurs, and growing teams in a vibrant, collaborative environment. Whether you need a hot desk or a dedicated space for your team, we’ve got you covered — with all the amenities of a modern office and the energy of a creative community.</p>
+              <h1 class="heading">Coworking and Office Space in <span>UAE</span></h1>
+              <p>Webizz offers quality coworking and office space in UAE, catering to startups, entrepreneurs, SMEs, and established organizations seeking flexible and professional working environments. Webizz, which has extensive experience in UAE business infrastructure solutions, understands the changing workplace requirements of modern businesses competing in competitive marketplaces.</p>
+              <p>Our coworking spaces in the UAE are intelligently built to encourage productivity, collaboration, and scalability. From fully equipped private offices to shared coworking desks and meeting rooms, Webizz provides workspaces that meet international standards while adhering to UAE business and safety rules.</p>
+              <p>Webizz helps organizations with workspace selection, licensing coordination, and operational setup. Our staff collaborates closely with UAE authorities and free zones to ensure a smooth and compliant onboarding experience for all clients.</p>
+              <p>Webizz is known for its transparent pricing, secure facilities, and customer-centric attitude. Webizz has a great reputation for trust, professionalism, and constant service quality, making it a credible partner for organizations looking for coworking and office space solutions in the UAE.</p>
             </div>
           </div>
         </div>
